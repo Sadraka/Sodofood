@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import React from "react";
-import Detailpage from "../../../components/template/Detailspage";
+import DetailPage from "../../../components/template/DetailPage";
 import Loadingpage from "../../../components/template/Loadingpage";
 import Head from "next/head";
 
@@ -14,7 +14,7 @@ export default function Id({ data }) {
       <Head>
         <title>{data.name}</title>
       </Head>
-      <Detailpage data={data} />;
+      <DetailPage data={data} />;
     </>
   );
 }

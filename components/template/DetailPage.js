@@ -1,8 +1,8 @@
-import styles from "./DetailsPage.module.css";
+import styles from "./DetailPage.module.css";
 import Location from "../icons/Location";
 import Dollar from "../icons/Dollar";
 
-function DetailsPage({ data }) {
+function DetailPage({ data }) {
   const {
     id,
     name,
@@ -74,4 +74,4 @@ function DetailsPage({ data }) {
   );
 }
 
-export default DetailsPage;
+export default DetailPage;
