@@ -3,7 +3,7 @@ import styles from "./Banner.module.css";
 export default function Banner() {
   return (
     <div className={styles.container}>
-      <div className={styles.lefts}>
+      <div className={styles.left}>
         <h1>SodoFood</h1>
         <h2>Food Delivery and Takeout!</h2>
         <p>

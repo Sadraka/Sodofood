@@ -15,7 +15,12 @@
     justify-content: space-between;
 }
 @media (max-width: 900px) {
+    .container {
+        text-align: center;
+    }
    .container .cards {
+    /* در حالت عمودی باعث میشه کارت به وسط بیان */
+    justify-content: space-around;
       flex-wrap: wrap;
     }
   }

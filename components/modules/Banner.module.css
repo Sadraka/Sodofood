@@ -47,12 +47,14 @@
     width: 450px;
 }
 @media (max-width: 900px) {
+    
     .right img {
       width: 350px;
     }
-    .left {
+   .container .left {
       margin-top: 10px;
     }
+ 
   }
   
   @media (max-width: 600px) {

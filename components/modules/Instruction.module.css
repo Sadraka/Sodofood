@@ -13,3 +13,9 @@
     content: "\2022";
     color:rgb(205, 31, 31);
 }
+@media (max-width: 900px) {
+    .container h2 {
+        text-align: center;
+    }
+
+  }

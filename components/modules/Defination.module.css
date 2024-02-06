@@ -9,3 +9,9 @@
     margin-top: 15px;
     text-align: justify;
 }
+@media (max-width: 900px) {
+    .container {
+        text-align: center;
+    }
+
+  }

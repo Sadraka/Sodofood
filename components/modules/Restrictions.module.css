@@ -8,3 +8,9 @@
     margin-top: 15px;
     margin-bottom: 100px;
 }
+@media (max-width: 900px) {
+    .container h2  {
+        text-align: center;
+    }
+
+  }
