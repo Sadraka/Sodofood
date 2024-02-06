@@ -1,0 +1,16 @@
+.container {
+    margin-top: 150px;
+    padding: 10px;
+}
+.container h1{
+    font-size: 1.7rem;
+    color:rgb(205, 31, 31);
+   
+    
+}
+
+.cards{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}

@@ -1,0 +1,21 @@
+.container{
+    max-width: 950px;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+  
+
+}
+.container h1{
+    margin-top: 100px;
+    text-decoration: underline;
+    color: rgb(205, 31, 31) ;
+}
+.container .cards{
+    width: 700px;
+    margin: 0 auto 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* justify-items: center; */
+    grid-gap:40px 0px;
+   
+}

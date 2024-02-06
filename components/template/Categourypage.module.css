@@ -1,0 +1,26 @@
+.container{
+    max-width: 950px;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+}
+.container .subContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container .cards{
+    
+    width: 700px;
+    margin: 50px auto auto auto;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    grid-gap:40px 0px;
+}
+.button{
+    background-color: rgb(205, 31, 31);
+}
+.button:hover{
+    background-color: rgb(239, 153, 153)
+}

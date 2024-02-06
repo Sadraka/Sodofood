@@ -1,0 +1,10 @@
+.container{
+    padding: 10px;
+}
+.container h2{
+    margin-top: 100px;
+}
+.container p{
+    margin-top: 15px;
+    margin-bottom: 100px;
+}

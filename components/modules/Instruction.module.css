@@ -1,0 +1,15 @@
+.container{
+    padding: 10px;
+}
+.container h2{
+    margin-top: 100px;
+}
+
+.container ul{
+    list-style: none;
+    margin-top: 15px;
+}
+.container ul li::before{
+    content: "\2022";
+    color:rgb(205, 31, 31);
+}

@@ -1,0 +1,11 @@
+.container{
+    padding: 10px;
+    margin-top: 100px;
+}
+.container h2{
+    color:rgb(205, 31, 31);
+}
+.container p{
+    margin-top: 15px;
+    text-align: justify;
+}

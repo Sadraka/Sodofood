@@ -1,0 +1,110 @@
+.container{
+width: 190px;
+background-color: rgb(251, 251, 251);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+padding: 5px;
+margin-top: 5px;
+border-radius: 5px;
+box-shadow: 0px 0px 16px -6px rgba(205, 31, 31, 0.321);
+
+
+}
+.container img{
+    width: 180px;
+    border-radius: 5px;
+    position: relative;
+  
+}
+.container .img{
+    top: -21px;
+    z-index: 100;
+
+}
+.container .image{
+    height: 120px;
+
+}
+.container .image p{
+    position: relative;
+    background-color:rgb(205, 31, 31) ;
+    width: fit-content;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #fff;
+    z-index: 101;
+    
+} 
+
+.container .name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width:190px;
+    padding: 5px;
+    margin-top: 10px;
+    
+}
+.container .name h3 {
+    color:rgb(205, 31, 31);
+    font-size: .7rem;
+}
+.container .name .country{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.container .name  p{
+    font-size: .5rem;
+    color: #d0d0d0;
+    
+}
+.container .price{
+    display: flex;
+    flex-direction: row;
+    width: 190px;
+    align-items: start;
+    font-size: .7rem;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+.container .price svg{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.container .price .discount {
+    color: rgb(205, 31, 31);
+    display: flex;
+    /* width: 190px; */
+    /* padding: 5px; */
+}
+.container a{
+    text-decoration: none;
+    width: 180px;
+    font-size: .8rem;
+    color: #fff;
+    background-color: rgb(205, 31, 31);
+    border-radius: 5px;
+    padding: 2px;
+    text-align: center;
+    margin-top: 10px;
+}
+.container .price .realprice{
+    color: rgba(0, 0, 0, 0.527);
+    padding-right:15px;
+    
+}
+.container .price .line{
+ height: 18px;
+ width: .5px;
+ background-color: #000000;
+    position: relative;
+    left: -25px;
+    top: -2px;
+    transform: rotate(50deg);
+}
