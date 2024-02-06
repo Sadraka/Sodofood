@@ -14,3 +14,8 @@
     margin-top: 50px;
     justify-content: space-between;
 }
+@media (max-width: 900px) {
+   .container .cards {
+      flex-wrap: wrap;
+    }
+  }

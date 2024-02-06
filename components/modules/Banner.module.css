@@ -8,22 +8,22 @@
     background-color: rgb(254, 254, 254);
 
 }
-.container .text{
+.container .left{
     display: flex;
     flex-direction: column;
     height: 250px;
     justify-content: space-around;
    
 }
-.container .text h1{
+.container .left h1{
     color:rgb(205, 31, 31) ;
     text-decoration: underline;
    
 }
-.container .text h2{
+.container .left h2{
     font-size: 1.1rem;
 }
-.container .text p{
+.container .left p{
     text-align: justify;
     font-size: .9rem;
 
@@ -41,7 +41,31 @@
     font-size: 1.1rem;
     font-weight:700;
     border-radius: 5px;
+    margin-top:5px;
 }
 .container img{
-    height:290px;
+    width: 450px;
 }
+@media (max-width: 900px) {
+    .right img {
+      width: 350px;
+    }
+    .left {
+      margin-top: 10px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      flex-direction: column-reverse;
+    }
+    .right {
+      text-align: center;
+    }
+    .right img {
+      width: 90%;
+    }
+    .left {
+      margin-top: 20px;
+    }
+  }
