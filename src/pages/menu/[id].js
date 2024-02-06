@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import React from "react";
-import Detailpage from "../../../components/template/Detailpage";
+import Detailpage from "../../../components/template/Detailspage";
 import Loadingpage from "../../../components/template/Loadingpage";
 import Head from "next/head";
 
